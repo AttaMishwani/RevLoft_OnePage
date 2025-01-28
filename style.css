@@ -1,0 +1,328 @@
+/* Base font sizes for desktop */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    height: 300vh;
+}
+
+:root {
+    --blue-one: #00A4C8;
+
+    --jakarta-sans: "Plus Jakarta Sans", serif;
+    --dull-white: #FFFFFF;
+    --poppins: "Poppins", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    /* 48px */
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800 !important;
+    /* 40px */
+}
+
+h3 {
+    font-size: 2rem;
+    /* 32px */
+}
+
+h4 {
+    font-size: 1.5rem;
+    /* 24px */
+}
+
+h5 {
+    font-size: 1.25rem;
+    /* 20px */
+}
+
+h6 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    /* 18px */
+}
+
+
+.blue-text {
+    color: var(--blue-one);
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: var(--dull-white);
+    /* background-color: green; */
+}
+
+.header-content {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 20px 0;
+}
+
+.header-content .logo {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.header-content .blue-line {
+    width: 50%;
+}
+
+
+.main-content-section {
+    width: 100%;
+}
+
+.content-section {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section h6:nth-of-type(1) {
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+
+    font-size: 21px;
+    font-weight: 500;
+    font-family: var(--jakarta-sans);
+
+}
+
+.content-section h1:nth-of-type(1) {
+    text-align: center;
+    margin-top: -2rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+
+
+
+
+.burning-container h4 {
+    font-weight: 400;
+    position: relative;
+    color: black;
+
+}
+
+.step-container {
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+.step-content {
+
+    border-radius: 10px;
+    padding: 2rem;
+
+}
+
+
+.step-para {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+.video-container {
+    margin: 2rem 0 3rem 0;
+    width: 78%;
+}
+
+.video {
+    border-radius: 10px;
+    background-color: var(--blue-one);
+    padding: 1rem;
+    padding-bottom: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.video-container .video iframe {
+    border-radius: 10px;
+    border: 3px solid white;
+    transform: translateY(-3rem);
+}
+
+
+.calender-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0;
+
+}
+
+.calender-container .calender {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.calendly-inline-widget {
+    margin: 0;
+    padding: 0 0 0 0rem;
+}
+
+/* Responsive font sizing */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+        /* 40px */
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        /* 36px */
+    }
+
+    h3 {
+        font-size: 1.875rem;
+        /* 30px */
+    }
+
+    h4 {
+        font-size: 1.375rem;
+        /* 22px */
+    }
+
+    h5 {
+        font-size: 1.125rem;
+        /* 18px */
+    }
+
+    h6 {
+        font-size: 1rem;
+        /* 16px */
+    }
+
+    p {
+        font-size: 0.95rem;
+        /* 15px */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        /* 32px */
+    }
+
+    h2 {
+        font-size: 1.75rem;
+        /* 28px */
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        /* 24px */
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        /* 20px */
+    }
+
+    h5 {
+        font-size: 1.125rem;
+        /* 18px */
+    }
+
+    h6 {
+        font-size: 1rem;
+        /* 16px */
+    }
+
+    p {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+        /* 28px */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        /* 24px */
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        /* 20px */
+    }
+
+    h4 {
+        font-size: 1.125rem;
+        /* 18px */
+    }
+
+    h5 {
+        font-size: 1rem;
+        /* 16px */
+    }
+
+    h6 {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+
+    p {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+}
