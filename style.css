@@ -10,11 +10,12 @@ body {
 }
 
 :root {
-    --blue-one: #00A4C8;
+    --blue-one: #4fd9f8;
 
     --jakarta-sans: "Plus Jakarta Sans", serif;
     --dull-white: #FFFFFF;
     --poppins: "Poppins", serif;
+    --montserrat: "Montserrat", serif;
 }
 
 h1,
@@ -91,7 +92,7 @@ header {
 
 .header-content .logo {
     width: 12rem;
-    margin: 3rem;
+    margin: 2.3rem;
 }
 
 .header-content .blue-line {
@@ -115,9 +116,9 @@ header {
 
 .content-section h6:nth-of-type(1) {
     text-align: center;
-    margin: 1rem 0 3rem 0;
+    margin: -1rem 0 3rem 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.8rem;
     font-family: var(--jakarta-sans);
 }
@@ -128,6 +129,7 @@ header {
     line-height: 4rem;
     font-weight: 800;
     font-size: 48px !important;
+    font-family: var(--montserrat);
     width: 78%;
 }
 
@@ -139,6 +141,10 @@ header {
     font-weight: 400;
     position: relative;
     color: black;
+    font-size: 16px;
+
+    font-family: var(--jakarta-sans);
+    margin: 0;
 
 }
 
@@ -170,7 +176,7 @@ header {
 
 
 .video-container {
-    margin: 2rem 0 3rem 0;
+    margin: 0rem 0 3rem 0;
     width: 78%;
 }
 
@@ -184,12 +190,14 @@ header {
     align-items: center;
 
 
+
 }
 
 .video-container .video iframe {
-    border-radius: 10px;
+    border-radius: 20px;
     border: 3px solid white;
-    /* transform: translateY(-3rem); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 
@@ -218,6 +226,12 @@ header {
     padding: 0 0 0 0rem;
 }
 
+.calendly-inline-widget {
+
+
+    min-width: 485px !important;
+
+}
 
 footer {
     width: 100%;
@@ -240,6 +254,7 @@ footer {
 
 .footer-content p {
     margin: 1rem 0;
+    font-size: 14px;
 }
 
 .footer-content a {
