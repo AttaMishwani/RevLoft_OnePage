@@ -333,4 +333,9 @@ footer {
         width: 10rem;
         margin: 2rem;
     }
+
+    .footer-content p {
+
+        font-size: 12px;
+    }
 }
