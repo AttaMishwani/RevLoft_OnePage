@@ -6,6 +6,7 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 
 }
 
@@ -154,7 +155,7 @@ header {
 
 .step-container {
     width: 100%;
-    padding: 0 20px;
+
 }
 
 
@@ -356,7 +357,8 @@ footer {
     }
 
     .calendly-inline-widget {
-        min-width: 348px !important;
+        min-width: 280px !important;
+        max-width: 300px !important;
     }
 
     .content-section h6:nth-of-type(1) {
@@ -383,9 +385,8 @@ footer {
     }
 
     .step-content p {
-
         text-align: center;
-
+        padding: 0 1rem;
     }
 
 
