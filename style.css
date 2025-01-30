@@ -6,7 +6,7 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+
 
 }
 
@@ -387,6 +387,10 @@ footer {
     .step-content p {
         text-align: center;
         padding: 0 1rem;
+    }
+
+    .calendly-inline-widget iframe {
+        padding: 0 10px;
     }
 
 
