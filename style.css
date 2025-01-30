@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-    --blue-one: #4fd9f8;
+    --blue-one: #00ceff;
 
     --jakarta-sans: "Plus Jakarta Sans", serif;
     --dull-white: #FFFFFF;
@@ -74,7 +74,7 @@ main {
 header {
     width: 100%;
     background-color: var(--dull-white);
-    /* background-color: green; */
+
 }
 
 .header-content {
@@ -116,7 +116,7 @@ header {
 
 .content-section h6:nth-of-type(1) {
     text-align: center;
-    margin: -1rem 0 3rem 0;
+    margin: 10px 0 3rem 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8rem;
@@ -128,21 +128,25 @@ header {
     margin-top: -2rem;
     line-height: 4rem;
     font-weight: 800;
+    color: #2f2f2f;
     font-size: 48px !important;
     font-family: var(--montserrat);
-    width: 78%;
+    width: 88%;
 }
 
 
 
 
+.burning-container {
+    padding: 0 20px;
+}
 
 .burning-container h4 {
     font-weight: 400;
     position: relative;
     color: black;
     font-size: 16px;
-
+    text-align: center;
     font-family: var(--jakarta-sans);
     margin: 0;
 
@@ -154,24 +158,36 @@ header {
 }
 
 
-
+.step-line {
+    border: 1px solid var(--blue-one);
+    min-height: 3.5rem;
+}
 
 
 
 
 .step-content {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    padding: 2rem;
-
+    padding: 2rem 0 0 0;
+    gap: 1rem;
 }
 
+.step-content h2 {
+    font-weight: 600 !important;
+}
 
 .step-para {
     text-align: center;
     font-size: 1.3rem;
     font-weight: 500;
     color: black;
+}
+
+.step-container:nth-last-of-type(2) .step-content {
+    padding: 0;
 }
 
 
@@ -320,8 +336,8 @@ footer {
 
     .content-section h1:nth-of-type(1) {
         line-height: 1.8rem;
-        font-size: 22px !important;
-        width: 100%;
+        font-size: 21px !important;
+        width: 89%;
     }
 
     .footer-content p:nth-of-type(3) {
@@ -349,14 +365,19 @@ footer {
 
     }
 
-    .burning-container h4 {
-        text-align: center;
-        padding: 0 1rem;
-    }
+
+
 }
 
 @media (max-width:320px) {
     .calendly-inline-widget {
         min-width: 250px !important;
+    }
+
+    .content-section h1:nth-of-type(1) {
+
+        font-size: 19px !important;
+        width: 92%;
+        line-height: 26px;
     }
 }
