@@ -395,11 +395,21 @@ footer {
         padding: 0 1rem;
     }
 
-    .calendly-inline-widget iframe {
+    /* .calendly-inline-widget iframe {
         padding: 0 10px;
+    } */
+
+    .step-container:nth-last-of-type(2) {
+        margin-top: 4rem !important;
     }
 
+    .step-line {
+        margin-bottom: -5rem;
+    }
 
+    .calendly-inline-widget.calendly-mobile {
+        padding: 0 10px;
+    }
 
 }
 
