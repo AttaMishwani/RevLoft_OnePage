@@ -161,7 +161,7 @@ header {
 
 .step-container {
     width: 100%;
-    margin: 1.5rem 0;
+
 }
 
 
@@ -173,6 +173,7 @@ header {
 
 
 
+
 .step-content {
     display: flex;
     justify-content: center;
@@ -180,6 +181,9 @@ header {
     border-radius: 10px;
     padding: 0rem 0 0 0;
     gap: 1rem;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 1.5rem auto;
 }
 
 .step-content h2 {
@@ -187,11 +191,17 @@ header {
 }
 
 .step-para {
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: black;
+    width: 60%;
+    /* border: 1px solid blue; */
 }
+
+.step-heading {
+    width: 20%;
+    /* border: 1px solid green; */
+    display: grid;
+    place-items: center;
+}
+
 
 .step-container:nth-last-of-type(2) {
     margin-top: 0 !important;
@@ -305,8 +315,14 @@ footer {
     }
 
     .step-para {
-        text-align: center;
+
         font-size: 1.1rem;
+
+    }
+
+    .step-content {
+
+        width: 100%;
 
     }
 }
@@ -324,9 +340,7 @@ footer {
 
     }
 
-    .step-content {
-        padding: 1rem 20px;
-    }
+
 
     .step-para {
         text-align: center;
@@ -387,9 +401,16 @@ footer {
         padding: 0 1rem;
     }
 
-    /* .calendly-inline-widget iframe {
-        padding: 0 10px;
-    } */
+    .step-heading {
+        width: 100%;
+
+    }
+
+    .step-para {
+        width: 100%;
+
+    }
+
 
 
     .step-line {
@@ -426,7 +447,5 @@ footer {
         line-height: 26px;
     }
 
-    .step-container:nth-last-of-type(2) {
-        margin-top: 10rem !important;
-    }
+
 }
