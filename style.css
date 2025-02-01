@@ -204,7 +204,7 @@ header {
 
 
 .step-container:nth-last-of-type(2) {
-    margin-top: 0 !important;
+    margin-top: 25px !important;
 }
 
 
@@ -376,7 +376,12 @@ footer {
     .content-section h6:nth-of-type(1) {
 
         padding: 0 1rem;
+        font-size: 15px;
 
+    }
+
+    .burning-container h4 {
+        font-size: 15px !important;
     }
 
     .step-content {
